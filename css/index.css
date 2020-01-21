@@ -282,6 +282,24 @@ footer .copyright {
   .content-box-bottom {
     width: 24%;
   }
+  .main-header .caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-header .caption a {
+    padding: 0 20px 0 20px;
+    border: #333 1px solid;
+    color: #333;
+    text-decoration: none;
+    margin: 0;
+    font-size: 20px;
+  }
+  .main-header .caption h1 {
+    font-size: 75px;
+    display: flex;
+    padding: 5px;
+    margin: 0;
 }
 
 /*500px*/
