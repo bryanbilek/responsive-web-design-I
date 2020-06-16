@@ -301,14 +301,16 @@ footer .copyright {
     padding: 5px;
     margin: 0;
 }
+}
 
 /*500px*/
 @media (max-width: 500px) {
-  .main-header .navbar {
+  /* .main-header .navbar {
     padding: 10px;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    justify-content: center;
   }
   .main-header .navbar ul li a {
     display: flex;
@@ -320,5 +322,17 @@ footer .copyright {
   }
   .content-box-bottom {
     width: 500px;
+  } */
+
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-box {
+    width: 100%;
   }
 }
